@@ -11,7 +11,15 @@
       <label for="location">Enter a location:</label>
       <input id="location" type="text">
       <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
-      <div class="showWeather"></div>
+      <div class="showWeather">
+        <h3><span id="city"></span>
+        <p>The humidity is <span id="humidity"></span>%</p>
+        <p id="celsius">The temperature is <span id="celsiusTemp"></span> degrees celsius.</p>
+        <button class="btn-success" id="switchToF">View in Fahrenheit</button>
+        <p id="f">The temperature is <span id="fTemp"></span> degrees fahrenheit.</p>
+        <button class="btn-success" id="switchToC">View in Celsius</button>
+
+      </div>
     </div>
   </body>
 </html>
