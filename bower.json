@@ -1,9 +1,9 @@
 {
-  "name": "",
+  "name": "weather",
   "description": "",
   "main": "object.js",
   "authors": [
-
+    "Mary Warrington and Jordan Meier"
   ],
   "license": "ISC",
   "moduleType": [],
