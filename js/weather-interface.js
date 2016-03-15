@@ -35,7 +35,7 @@ $(document).ready(function() {
       });
 
     }).fail(function(error) {
-      $('.showWeather').text(error.message);
+        $('.showWeather').text(error.responseJSON.message);
     });
   });
 });

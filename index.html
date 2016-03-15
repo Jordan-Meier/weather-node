@@ -6,13 +6,15 @@
     <title>Weather</title>
   </head>
   <body>
+    <div class="container-fluid jumbotron">
+      <h1>Get Weather Conditions From Anywhere!</h1> 
+    </div>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
       <label for="location">Enter a location:</label>
       <input id="location" type="text">
-      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+      <button class="btn-success" id="weatherLocation">Get Weather Info!</button>
       <div class="showWeather">
-        <h3><span id="city"></span>
+        <h3><span id="city"></span><hr>
         <p>The humidity is <span id="humidity"></span>%</p>
         <p id="celsius">The temperature is <span id="celsiusTemp"></span> degrees celsius.</p>
         <button class="btn-success" id="switchToF">View in Fahrenheit</button>
